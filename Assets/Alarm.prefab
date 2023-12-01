@@ -12,10 +12,11 @@ GameObject:
   - component: {fileID: 5090294234882194924}
   - component: {fileID: 5789506188276767826}
   - component: {fileID: 2716988439930427280}
-  - component: {fileID: 6271117265496815187}
   - component: {fileID: 1984556498545302033}
+  - component: {fileID: 5750758014895319350}
+  - component: {fileID: 3445125044803100703}
   m_Layer: 0
-  m_Name: AlarmTrigger
+  m_Name: Alarm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -160,18 +161,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.02, y: 3.71}
   m_EdgeRadius: 0
---- !u!114 &6271117265496815187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3090672639677258688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c1e9e818a371834989cbcac6c4330eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &1984556498545302033
 AudioSource:
   m_ObjectHideFlags: 0
@@ -268,3 +257,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5750758014895319350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3090672639677258688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1e9e818a371834989cbcac6c4330eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3445125044803100703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3090672639677258688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aecd9a2d04364544a490f65fa1ea548, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
